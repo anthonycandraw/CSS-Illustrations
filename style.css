@@ -155,10 +155,10 @@ body { margin: 0; }
 #cards div {
 	background: #fff;
 	border-radius: 5px;
-	box-shadow: 
-		0 -1px 1px rgba(0,0,0,.2), 
-		0 -4px 0 -2px #fff, 
-		0 -5px 1px -2px rgba(0,0,0,.2), 
+	box-shadow:
+		0 -1px 1px rgba(0,0,0,.2),
+		0 -4px 0 -2px #fff,
+		0 -5px 1px -2px rgba(0,0,0,.2),
 		0 -7px 0 -4px #fff;
 	content: '';
 	height: 260px;
@@ -196,17 +196,17 @@ body { margin: 0; }
 }
 
 #note div {
-	background: 
+	background:
 		linear-gradient(
-			to top, 
-			rgba(0,0,0,.08), 
-			rgba(0,0,0,0)), 
+			to top,
+			rgba(0,0,0,.08),
+			rgba(0,0,0,0)),
 		linear-gradient(
-			to right, 
-			transparent, 
-			transparent 40px, 
-			#fedafe 40px, 
-			#fedafe 42px, 
+			to right,
+			transparent,
+			transparent 40px,
+			#fedafe 40px,
+			#fedafe 42px,
 			transparent 42px
 			),
 		linear-gradient(
@@ -219,7 +219,7 @@ body { margin: 0; }
 		repeating-linear-gradient(
 			to bottom,
 			#fff,
-			#fff 20px, 
+			#fff 20px,
 			#cde3fb 20px,
 			#cde3fb 21px
 			);
@@ -236,7 +236,7 @@ body { margin: 0; }
 }
 
 #backpack div {
-	background: 
+	background:
 	linear-gradient(
 		to right,
 		#841868,
@@ -260,8 +260,8 @@ body { margin: 0; }
 		#841868
 		);
 	border-radius: 8px 8px 18px 18px;
-	box-shadow: 
-		0 4px 6px rgba(0,0,0,.3), 
+	box-shadow:
+		0 4px 6px rgba(0,0,0,.3),
 		inset 0 -20px 40px rgba(0,0,0,.2);
 	height: 280px;
 	margin: auto;
@@ -273,10 +273,10 @@ body { margin: 0; }
 	background: #841868;
 	border-radius: 20px;
 	bottom: 20px;
-	box-shadow: 
+	box-shadow:
 		inset 0 -4px 8px 2px rgba(0,0,0,.3),
-		inset 0 2px 0 2px #ba1161, 
-		inset 0 6px 0 2px rgba(0,0,0,.3), 
+		inset 0 2px 0 2px #ba1161,
+		inset 0 6px 0 2px rgba(0,0,0,.3),
 		inset 0 10px 0 2px #ba1161,
 		0 4px 1px rgba(0,0,0,.3);
 	content: '';
@@ -288,10 +288,11 @@ body { margin: 0; }
 
 #backpack div::after {
 	background: #ffc000;
-	box-shadow: 
-		0 2px 0 #b57700, 120px 0 0 #ffc000, 
-		120px 2px 0 #b57700, 
-		0 4px 1px rgba(0,0,0,.3), 
+	box-shadow:
+		0 2px 0 #b57700,
+		120px 0 0 #ffc000,
+		120px 2px 0 #b57700,
+		0 4px 1px rgba(0,0,0,.3),
 		120px 4px 1px rgba(0,0,0,.3);
 	content: '';
 	height: 160px;
@@ -324,7 +325,7 @@ body { margin: 0; }
 
 #mountain div::before {
 	background: #cde3fb;
-	box-shadow: 
+	box-shadow:
 		-1px 1px 0 1px #cde3fb,
 		-1px 21px 0 1px #cde3fb,
 		-1px 61px 0 1px #cde3fb,
@@ -404,7 +405,7 @@ body { margin: 0; }
 
 #anim-test div {
 	background: #fff;
-	box-shadow: 
+	box-shadow:
 		0 20px 0 #344f61,
 		0 -20px 0 #344f61,
 		0 40px 0 -10px #233540,
@@ -448,6 +449,70 @@ body { margin: 0; }
 
 body:hover #anim-test div::before {
 	top: -40000px;
+}
+
+#vinyl {
+	background-color: #cccccc;
+	padding: 300px 0;
+	position: relative;
+}
+
+#vinyl div {
+	background-color: #ccc;
+	border-radius: 1000px;
+	box-shadow: inset 0px 2px 0 2px rgba(0,0,0,.1),
+							0 0 0 30px yellow,
+							0 0 0 40px black,
+							0 0 0 42px #444,
+							0 0 0 52px black,
+							0 0 0 54px #333,
+							0 0 0 64px black,
+							0 0 0 66px #222,
+							0 0 0 76px black,
+							0 0 0 78px #111,
+							0 0 0 88px black,
+							0 0 0 90px #333,
+							0 0 0 100px black,
+							0 0 0 102px #111,
+							0 0 0 112px black,
+							0 0 0 114px #222,
+							0 0 0 124px black,
+							0 4px 0 126px rgba(0,0,0,.1);
+	height: 20px;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+}
+
+#vinyl div::before {
+	background: linear-gradient(ivory, #DFFFF7);
+	bottom: 0;
+	box-shadow: 0px 2px 0 2px rgba(0,0,0,.1);
+	content: '';
+	height: 300px;
+	left: 60px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	width: 300px;
+}
+
+#vinyl div::after {
+	content: '';
+	background-color: #FFD289;
+	border-radius: 1000px;
+	bottom: 0;
+	/*box-shadow: 80px 0px 0 -20px #ECA72C;*/
+	content: '';
+	height: 150px;
+	left: 135px;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 150px;
 }
 
 #book {
